@@ -52,12 +52,12 @@ I am passionate about sustainability and reducing day-to-day consumption. I like
    *Not selected:* Hard to solve effectively with software alone; behavioral change is complex and diffuse.
 
 2. **Lack of inspiration for creative reuse/upcycling:** People want to live sustainably but may lack ideas for repurposing items.  
-   *Not selected:* Inspiration apps exist; impact may be limited without strong differentiation or community adoption.
+   *Not selected:* Inspiration apps like Pinterest exist; impact may be limited without strong differentiation or community adoption.
 
 3. **Difficulty donating small household items:** Small, usable items are often discarded due to lack of accessible donation channels.  
    *Not selected:* Risk of lack of critical mass; without enough participants, the solution may fail to deliver value.
 
-## Three Most Worth Pursuing Problems
+## Three Selected Problems
 
 ### 1. Unorganized Personal Travel Photos
 I personally really struggle with accumulating many photos that are rarely organized, making it hard to relive or share experiences. and Other travelers likely does as well. Software can automate tagging, sorting, and album creation, improving the overall travel memory experience.
@@ -99,21 +99,23 @@ Planning dance formations that respect both the choreographer's vision and dance
 
 ### 1. Unorganized Personal Travel Photos
 
-**Evidence:**
+### Evidence
+
 1. [Reddit: Struggling with Organizing Travel Photos](https://www.reddit.com/r/roadtrip/comments/1n0f3df/do_you_guys_also_struggle_with_organizing_travel/)  
-   A Reddit user described returning from a trip with thousands of photos scattered across devices and apps, making it difficult to recall the sequence of events. This shows how disorganized photo collections hinder revisiting and sharing experiences.  
+   A Reddit user shared their experience returning from a trip with thousands of photos scattered across Google Photos, phone galleries, and Maps pins. They noted difficulty piecing together the sequence of events, stating, “when someone asks me ‘what did you do after that café in Paris?’ I honestly struggle to piece it all together.” This illustrates how disorganized photo collections can hinder recalling and sharing travel experiences effectively.
 
 2. [Travel Bug Tonic: Overwhelming Volume of Travel Photos](https://www.travelbugtonic.com/blog/travel-photos)  
-   A blogger shared accumulating over 4,500 photos and videos during a 10-week trip, describing management as “overwhelming,” highlighting the challenge of handling large collections without systematic organization.  
+   A travel blogger recounted accumulating over 4,500 photos and videos during a 10-week trip, describing the task of managing such a large volume as “overwhelming.” This highlights the challenge travelers face in managing extensive photo collections, especially without a systematic organization method.
 
 3. [Reddit: Managing Large Photo Collections](https://www.reddit.com/r/photography/comments/1hws9oc/how_do_you_manage_large_photo_collections)  
-   A discussion emphasized renaming files and using keywords to manage photos. References to *The DAM Book* show the complexity of organizing digital collections effectively.  
+   In a Reddit discussion, a user emphasized the importance of renaming folders and files immediately after importing photos and keywording them to maintain organization. They referenced *The DAM Book* as a valuable resource for managing digital assets, underscoring the complexity of handling large photo collections without a structured approach.
 
 4. [Tidy Haus: Consequences of Disorganized Photo Collections](https://www.tidy.haus/blog/the-challenges-of-online-photo-management)  
-   The article notes that scattered photos decrease accessibility and efficiency, causing frustration and wasted time when searching for specific images.  
+   This article discusses the consequences of disorganized digital photo collections, noting that such disarray can severely affect accessibility and time efficiency. It highlights the frustration of trying to find a specific photo when they are scattered across various folders or devices, leading to unnecessary stress and decreased productivity.
 
 5. [Detail-Oriented Traveler: Challenges in Organizing Vacation Photos](https://www.detailorientedtraveler.com/organize-vacation-photos)  
-   Highlights that photos across multiple devices create clutter and reduce the ability to relive or share vacation experiences effectively.  
+   The article emphasizes that if travel photos are spread out across different devices, the clutter becomes unmanageable. Without a centralized organization system, travelers may struggle to enjoy and revisit their vacation memories effectively.
+
 
 **Comparables:**
 1. [Google Photos](https://photos.google.com)  
@@ -122,114 +124,78 @@ Planning dance formations that respect both the choreographer's vision and dance
 2. [Apple Photos](https://www.apple.com/ios/photos/)  
    Syncs across devices with automatic albums and memory highlights. Customization is limited; users must manually create albums for complex trips.  
 
-3. [Adobe Lightroom](https://www.adobe.com/products/photoshop-lightroom.html)  
-   Strong tagging, metadata, and editing for large collections. Designed for professionals; steep learning curve for casual travelers and doesn’t automatically group photos by trips.  
+3. [Gallery](https://apps.apple.com/us/app/gallery-photo-vault/id1450715436)  
+   Designed specifically for travel photos, automatically organizing images by location, date, and landmarks. It creates custom folders for each trip, making it easy to find and relive memories. While it provides strong travel-specific organization, it currently offers limited options for personalizing story narratives beyond the automated grouping.
 
-4. [Mylio](https://mylio.com)  
-   Syncs photos across devices with albums, tags, and calendars. Handles large collections but lacks automatic trip narratives or location-based storytelling integration.  
-
-5. [Journi Blog](https://apps.apple.com/us/app/journi-blog-travel-tracker/id884030844)  
+4. [Journi Blog](https://apps.apple.com/us/app/journi-blog-travel-tracker/id884030844)  
    Organizes travel photos into timelines with location tags and notes. Focuses mainly on photos; limited flexibility for users who want custom narrative structures or more text integration.  
 
 ### 2. Difficulty Comparing Personal Dance Practices to Original Choreography
+## Evidence
 
-**Evidence:**
-1. [Dancing on the Inside: A Qualitative Study on Online Dance Learning with Teacher-AI Cooperation](https://link.springer.com/article/10.1007/s10639-023-11649-0)  
-   A dancer reported taking extra time recording practice videos to improve their score. Shows that being able to clearly see where one can improve inspires dancers to refine their moves.  
+### Difficulty Comparing Personal Dance Practices to Original Choreography
+
+1. [Dancing on the inside: A qualitative study on online dance learning with teacher-AI cooperation](https://link.springer.com/article/10.1007/s10639-023-11649-0)  
+   According to the authors, a dancer stated “[i]nitially, my plan was to record my practice video in one take without any retakes. However, after receiving a lower dance score than I had anticipated, I made sure to take extra time to submit the video, in order to achieve a higher score.” This is evidence on how users might be affected, having an opportunity to clearly see where they can improve in their dance can inspire dancers to practice more and refine their moves.
 
 2. [9 Ways to Overcome Common Dance Practice Challenges](https://www.fredastaire.com/valparaiso/blog/lifestyle-self-improvement/9-ways-to-overcome-common-dance-practice-challenges/?utm_source=chatgpt.com)  
-   Fred Astaire Dance Studio highlights that without an instructor, feedback is challenging. Recording and reviewing practice sessions is critical for improvement.  
+   According to Fred Astaire dance studio, “Without regular access to an instructor, getting feedback on your dance technique can be challenging. To address this, record your practice sessions and review them critically.” This shows that being able to get feedback on independent dance practices is important for dancers to improve.
 
 3. [Reddit: Dance Practice Advice](https://www.reddit.com/r/Dance/comments/czq4gs/comment/ez4n8ax)  
-   Users emphasize breaking down moves carefully and comparing each part to the original. Reinforces the importance of detailed comparison in learning choreography.  
-
-4. [SyncUp Survey](https://arxiv.org/pdf/2107.13847)  
-   Dancers rated features providing visual/textual feedback on out-of-sync motions at 4.66/5, showing strong interest in software for detailed corrective guidance.  
-
-5. [Challenge Point Framework](https://en.wikipedia.org/wiki/Challenge_point_framework)  
-   Suggests that optimal learning occurs when challenges are balanced. Over-automation in software might reduce learning effectiveness by removing necessary challenge.  
-
-**Comparables:**
-1. [Deep Dance](https://devpost.com/software/deepdance)  
-   Scores dancers and displays skeletons for comparison. Limitation: only provides overall score; dancers must manually check which moves need improvement.  
-
-2. [Dance Sync](https://github.com/Mruchus/dance-sync-analysis)  
-   Compares videos by joint angles and sync, highlighting mismatched frames. Limitation: MacOS only, lacks user-friendly interface for non-technical dancers.  
-
-3. [Dance Better AI](https://www.dancebetter.org)  
-   Users upload reference and personal videos; platform provides detailed feedback within 1–3 days. Limitation: $10 paywall, unclear feedback examples, slow turnaround.  
+   According to RivenIsForNoobs, “[t]he best advice … about imitating/follow someone is to basically catch his vibe and make sure you separate the move from his feet, legs, … shoulders and head, if you take your times separating every move he does … you succeed in doing that move”. This is very similar to advice I’ve heard from my dancer friends, who emphasize that to improve it’s important to break down moves carefully and ensure each part is done properly. This shows that many dancers find it important to compare their practice to the original choreography when improving their performance.
 
 4. [SyncUp](https://arxiv.org/pdf/2107.13847)  
-   Provides visual feedback for synchronization. Limitation: only described in research paper, primarily for group synchronization, not publicly available, and individual practice support is limited.  
+   Conducted a survey in which dancers rated the feature “provide detailed textual and/or visual instructions on how to fix dancer out-of-sync motions and poses” at 4.66 out of 5, where 5 indicated “they would definitely use the feature.” This suggests that dancers strongly value software that can provide detailed corrective feedback, reinforcing the need for tools that help individuals compare and refine their choreography.
 
-### 3. Inefficient Formation Planning for Choreographers
+5. [Challenge Point Framework](https://en.wikipedia.org/wiki/Challenge_point_framework)  
+   According to this framework “an optimal challenge point exists when learning is maximized and detriment to performance in practice is minimized.” This suggests that some level of difficulty is beneficial for effective learning. In the context of dance, if software eliminates too much of the challenge of carefully comparing one’s practice to the original choreography, it could actually reduce learning effectiveness by making the process too easy.
+### Comparables: Difficulty Comparing Personal Dance Practices to Original Choreography
 
-**Evidence:**
+1. [Deep Dance](https://devpost.com/software/deepdance)  
+   A hackathon app that scores how well you match a dancer’s choreography and displays your “skeleton” next to theirs for easy comparison. The limitation is that it just gives an overall score and still requires dancers to go through the video manually to check which part they should approve.  
+
+2. [Dance Sync](https://github.com/Mruchus/dance-sync-analysis)  
+   According to the README, this code compares a user's dance video to a model dancer by analyzing joint angles, syncing via music, and highlights mismatched frames and gives an overall score as well. Unfortunately it only runs on MacOS right now, so I can’t download it and check how it actually works. I think this package is a great start, however, it should have a more accessible UI for dancers that may not be as technical to upload and review the feedback.  
+
+3. [Dance Better AI](https://www.dancebetter.org)  
+   According to the website, users can upload a reference video plus their own recording. The platform analyzes rhythm, posture, and technique and offers detailed feedback within 1–3 days to help refine performance. I think the limitation is that it’s behind a $10 paywall, there’s no clear example of what feedback it actually gives, and it takes a long time to provide feedback.  
+
+4. [SyncUp](https://arxiv.org/pdf/2107.13847)  
+   Helps dancers practice synchronization by providing visual feedback that highlights which dancers, body parts, or segments are out of sync. While this represents a promising attempt at addressing the challenge of choreography comparison, the tool is currently only described in a research paper and is not publicly available. It is also primarily geared toward group synchronization rather than supporting individual dancers comparing their own practice to original choreography.
+## Evidence
+
+### Inefficient Formation Planning for Choreographers
+
 1. [ChoreoVis: Planning and Assessing Formations in Dance Choreographies](https://arxiv.org/pdf/2404.04100)  
-   ChoreoVis is a web-based visualization tool for planning dance formations. A study highlighted that participants appreciated the easy detection of potential collisions in transitions, showing that predicting dancer interactions is a key challenge for choreographers.  
+   ChoreoVis is a web-based visualization tool developed to assist choreographers in planning and assessing dance formations. In a study evaluating the tool, “[t]wo participants highlighted the easy detection of potential collisions in the transition view, which is not possible with existing tools.” This demonstrates that being able to quickly detect how dancers will interact in formations is a significant challenge for choreographers.
 
 2. [Dance Insight: Formation Ideas for Awkward Numbers](https://dance-insight.com/formation-ideas/)  
-   Offers advice for choreographers managing odd numbers of dancers to avoid awkward formations, demonstrating the need for tools that adapt to varying group sizes.  
+   This blog post provides advice to choreographers working with an odd number of dancers to avoid awkward formations. It indicates a clear need for tools that help choreographers plan formations for groups of varying sizes.
 
 3. [Dance Insight: Choreographer’s Block and How to Overcome It](https://dance-insight.com/choreographers-block/)  
-   Suggests getting a first draft down quickly to overcome creative blocks, indicating that tools that simplify formation planning can support creative flow without requiring perfection immediately.  
+   This post explains that choreographers experiencing creative blocks should “get that first draft down on paper without getting hung up on every little phrase.” It shows that tools facilitating easy formation planning can help ideas flow without requiring perfection on the first attempt.
 
 4. [Dance and Choreography Competence of University Physical Education Teachers](https://oapub.org/edu/index.php/ejep/article/view/2524/5162)  
-   Highlights that choreographers must balance principles like space, time, levels, and energy with available stage space, showing the complexity of effective formation planning.  
+   Ripalda explains that “[c]horeography principles such as space, time, levels, and energy are used to make a dance piece effective” and “[a]pplication of these principles has to fit into whatever space there is available for the dancers or performers to use.” This highlights that effective choreographers must consider their dancers when leading a piece to achieve the best results.
 
-5. [Segmenting Recreational Dance Communities in Greece](https://www.mdpi.com/2075-4698/15/9/239)  
-   Study shows dancers have diverse preferences influenced by culture, demographics, and engagement level, underscoring the importance of considering dancer input in formation planning.  
+5. [Segmenting Recreational Dance Communities in Greece: Cultural Identity, Lifelong Engagement, and Inclusive and Participant-Centered Approaches to Dance Programming](https://www.mdpi.com/2075-4698/15/9/239)  
+   This study explores how dance style preferences among recreational dancers reflect intersections of cultural identity, demographic background, and engagement levels. Although not directly about formations, it highlights that dancers have diverse preferences and would appreciate having their input considered in choreography planning.
 
-**Comparables:**
+---
+
+### Comparables
+
 1. [Choreographic](https://www.choreographic.app)  
-   Mobile app for 3D visualization of formations with music synchronization and notes. Limitation: steep learning curve, no direct input from performers on preferences.  
+   A mobile application that allows choreographers to plan and visualize dance formations in 3D. It offers features such as music synchronization, customizable stage sizes, and the ability to add notes for dancers. Its limitation is that the extensive feature set may create a steep learning curve for hobbyist choreographers. It also does not provide options for performers to submit their preferences directly.
 
 2. [ArrangeUs](https://apps.apple.com/us/app/arrangeus/id1502182540)  
-   Helps choreographers create and visualize formations with animated transitions. Limitation: minimal animations may allow collisions; performer preferences not included.  
+   An app designed to help choreographers create and visualize dance formations. It includes animated transitions, customizable stages, and music synchronization. While it is more straightforward to use, the animated transitions are minimal—dancers move directly to their next positions, which could result in collisions in the visualization. Like Choreographic, it does not allow performers to submit their preferences.
 
 3. [StageKeep](https://app.stagekeep.com)  
-   Collaborative stage management platform. Limitation: web-only, requires trial; performers cannot directly submit preferences for formation planning.  
+   A collaborative stage management tool for managing, designing, and reviewing pre-production logistics, rehearsals, and performance videos. It is less accessible since it is web-only and requires a trial to use. While team members can leave comments, it lacks functionality for performers to submit their preferences to directly influence formation planning.
 
 4. [FORMI Studio](https://www.formistudio.app)  
-   Tracks production elements and syncs to music with 3D visualization and adjustable performer heights. Limitation: does not account for performer preferences in formations.  
+   A collaborative stage management platform that tracks all the moving parts in a production and syncs them to music. It offers real-time collaboration and 3D visualization, and it is easy to sign up and start using, with options to adjust performers’ heights. However, it also does not account for performers’ preferences in formation planning.
 
 5. [ChoreoVis](https://arxiv.org/pdf/2404.04100)  
-   Assists in planning movement trajectories and floor utilization for evaluation. Limitation: focuses on optimization for assessment rather than creativity; performer preferences are not incorporated.  
-## Features
-
-### 1. Unorganized Personal Travel Photos
-
-1. **Automated Story Creation**  
-   Allow users to upload a large set of photos, which are automatically organized into stories based on location and date metadata. This helps travelers quickly visualize trips and reduces time spent manually sorting photos, benefiting both travelers and friends/family viewing the stories.  
-
-2. **Facial Recognition and Tagging**  
-   Detect faces in photos and associate them with people who were present, creating richer context for each memory. This makes it easier for users to recall who they traveled with, enhancing storytelling and engagement for both users and their social circle.  
-
-3. **Travel Reflections/Notes**  
-   Provide a space for users to add text reflections, captions, or highlights alongside photos. This allows travelers to capture personal insights, emotions, or anecdotes, complementing the visual story and providing deeper context for friends and family.
-
----
-
-### 2. Difficulty Comparing Personal Dance Practice to Original Choreography
-
-1. **Simplified Visual Representation**  
-   Convert both the user’s performance and the original choreography into stick-figure animations. This makes it easier for dancers to manually compare movements without distractions from complex visuals, helping casual and professional dancers focus on technique.  
-
-2. **Highlighted Differences**  
-   Automatically identify and highlight parts of the dance where the user differs significantly from the original choreography. This allows dancers to prioritize practice on critical areas, benefiting both learners and instructors providing feedback.  
-
-3. **Clear Feedback & Teacher Input**  
-   Display ratings or scores for each section along with comments from instructors. This helps dancers understand exactly what to improve and gives teachers a straightforward method to provide guidance, enhancing practice efficiency and learning outcomes.
-
----
-
-### 3. Inefficient Formation Planning for Choreographers
-
-1. **Dancer Preference Integration**  
-   Link dancer-submitted preferences (e.g., front/back placement, solo moments, comfort with floor work) to suggested formations. This ensures choreographers consider individual comfort and spotlight desires, improving dancer satisfaction and engagement.  
-
-2. **Adjustable Visual Factors**  
-   Allow adjustments for dancer heights and stage spacing to optimize visibility. This ensures performers are seen clearly and formations are visually balanced, benefiting both dancers and audiences.  
-
-3. **Choreographer Input & Recommendations**  
-   Provide options for choreographers to submit their own preferences or recommendations, such as who is strong in certain positions or should be in front. This allows choreographers to maintain creative control while incorporating dancer input, streamlining formation planning.
+   A web application that assists in planning and assessing dance choreographies, including movement trajectories and dance floor utilization. Its unique approach focuses on optimizing formations for evaluation purposes rather than creativity. It would be enhanced if performers’ preferences could also be included as an optimization factor.
