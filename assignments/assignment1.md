@@ -133,8 +133,6 @@ Planning dance formations that respect both the choreographer's vision and dance
 ### 2. Difficulty Comparing Personal Dance Practices to Original Choreography
 ## Evidence
 
-### Difficulty Comparing Personal Dance Practices to Original Choreography
-
 1. [Dancing on the inside: A qualitative study on online dance learning with teacher-AI cooperation](https://link.springer.com/article/10.1007/s10639-023-11649-0)  
    According to the authors, a dancer stated “[i]nitially, my plan was to record my practice video in one take without any retakes. However, after receiving a lower dance score than I had anticipated, I made sure to take extra time to submit the video, in order to achieve a higher score.” This is evidence on how users might be affected, having an opportunity to clearly see where they can improve in their dance can inspire dancers to practice more and refine their moves.
 
@@ -149,7 +147,7 @@ Planning dance formations that respect both the choreographer's vision and dance
 
 5. [Challenge Point Framework](https://en.wikipedia.org/wiki/Challenge_point_framework)  
    According to this framework “an optimal challenge point exists when learning is maximized and detriment to performance in practice is minimized.” This suggests that some level of difficulty is beneficial for effective learning. In the context of dance, if software eliminates too much of the challenge of carefully comparing one’s practice to the original choreography, it could actually reduce learning effectiveness by making the process too easy.
-### Comparables: Difficulty Comparing Personal Dance Practices to Original Choreography
+### Comparables
 
 1. [Deep Dance](https://devpost.com/software/deepdance)  
    A hackathon app that scores how well you match a dancer’s choreography and displays your “skeleton” next to theirs for easy comparison. The limitation is that it just gives an overall score and still requires dancers to go through the video manually to check which part they should approve.  
@@ -162,9 +160,10 @@ Planning dance formations that respect both the choreographer's vision and dance
 
 4. [SyncUp](https://arxiv.org/pdf/2107.13847)  
    Helps dancers practice synchronization by providing visual feedback that highlights which dancers, body parts, or segments are out of sync. While this represents a promising attempt at addressing the challenge of choreography comparison, the tool is currently only described in a research paper and is not publicly available. It is also primarily geared toward group synchronization rather than supporting individual dancers comparing their own practice to original choreography.
-## Evidence
 
-### Inefficient Formation Planning for Choreographers
+### 3. Inefficient Formation Planning for Choreographers
+
+### Evidence
 
 1. [ChoreoVis: Planning and Assessing Formations in Dance Choreographies](https://arxiv.org/pdf/2404.04100)  
    ChoreoVis is a web-based visualization tool developed to assist choreographers in planning and assessing dance formations. In a study evaluating the tool, “[t]wo participants highlighted the easy detection of potential collisions in the transition view, which is not possible with existing tools.” This demonstrates that being able to quickly detect how dancers will interact in formations is a significant challenge for choreographers.
