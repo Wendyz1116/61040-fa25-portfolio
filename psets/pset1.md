@@ -1,89 +1,74 @@
 # Pset 1
 
 ## Exercise 1: Reading a Concept
-### Invariants
+### 1. Invariants
 
 * For every request, the remaining count + the count of all the purchases should be equal to the counts added to the request with `addItem`.
 * Every purchase is always connected to an existing request in the registry. It is more important because the purpose of the concept is to track purchases of requested gifts. If there’s a purchase not associated with a request, then we shouldn’t track this purchase. The `purchase` action is most affected, since it’s recording a new purchase that needs to be connected to a request. It preserves it because it checks that a request exists for the item before recording the purchase.
 
----
 
-### Fixing an Action
+### 2. Fixing an Action
 
 * `removeItem` could potentially break this. If a request with existing purchases is removed, the invariant breaks, there will be purchases without a request.
 * The fix would be to not allow item removal if purchases exist.
 
----
-
-### Inferring Behavior
+### 3. Inferring Behavior
 
 * Yes, a registry can be opened and closed repeatedly since nothing in the `open` or `close` actions forbids this.
 * This should be allowed in case the user wants to reopen a registry after closing it, for example to temporarily hide it while updating items and then make it public again.
 
----
-
-### Registry Deletion
+### 4. Registry Deletion
 
 * I don't think deletion is needed. Users can just close it and closed registries can simply remain inactive.
 * However, deletion might matter for storage management or privacy, like if people want their data removed.
 
----
 
-### Queries
+### 5. Queries
 
 * Look at purchases to see which items were purchased, and by what user.
 * Look at requests and see which items in the registry have positive count and thus are still available to purchase.
 
----
 
-### Hiding Purchases
+
+### 6. Hiding Purchases
 
 * Add a boolean flag `hidePurchases` to the `Registry`. When true, the actions will still record and track the purchases internally but prevent the owner `User` from being able to query any of the purchases until the flag is switched off.
 
----
 
-### Generic Types
+### 7. Generic Types
 
 * Using generics for `Item` lets the concept work with different item representations instead of hardcoding attributes.
 * This is preferable because it allows for simpler identification and matching in large databases and facilitates changes to item details (like prices or descriptions) without affecting the underlying logic of the concept.
 * The item’s name, description, or price also isn’t important for a registry, which only needs to track that items are requested and purchased.
 
-Here’s your **Exercise 2** content converted into Markdown while keeping all your answers exactly the same:
-
----
 
 ## Exercise 2: Extending a familiar concept
 
-### Complete the definition of the concept state
+### 1. Complete the definition of the concept state
 
 **State:**
 a set of Users with
 * A username String
 * A password String
 
----
 
-### Requires/Effects Specification for Actions
+### 2. Requires/Effects Specification for Actions
 
-**1. `register(username: String, password: String): (user: User)`**
+**`register(username: String, password: String): (user: User)`**
 
 * **Requires:** There is no User that already have the username
 * **Effects:** Creates and return a new User with username and password.
 
-**2. `authenticate(username: String, password: String): (user: User)`**
+**`authenticate(username: String, password: String): (user: User)`**
 
 * **Requires:** A User exists with the given username and password.
 * **Effects:** return that User
 
----
-
-### Essential Invariant
+### 3. Essential Invariant
 
 * Each username in Users should be unique. It’s preserved since in initial states there’s no Users. Register is the only way to create a new User and it requires that no existing User has the same username as the new one. This check ensures the invariant is maintained.
 
----
-
-### Extension: Registration Confirmed by Email
+### 4. Extension: Registration Confirmed by Email
 
 **1. `register(username: String, password: String, email: String): (user: User, secretToken: String)`**
 
@@ -95,7 +80,7 @@ a set of Users with
 * **Requires:** There is a User with username and secretToken
 * **Effects:** Set isConfirmed of that User to True
 
-**State for Email Confirmation Extension:**
+**3. State for Email Confirmation Extension:**
 
 a set of Users with
 
@@ -104,9 +89,6 @@ a set of Users with
 * A isConfirmed Boolean
 * A secretToken String
 
-Absolutely! Here’s **Exercise 3** in Markdown, keeping **all of your original wording exactly the same**:
-
----
 
 ## Exercise 3: Comparing concepts
 
@@ -178,13 +160,10 @@ A user can have multiple tokens, but only one password. Tokens can expire or be 
 
 The GitHub page could be clearer by emphasizing that tokens are not just “password substitutes” but separate, revocable credentials. Highlighting the differences listed earlier could also better distinguish them from passwords, instead of just saying treat tokens like passwords.
 
-Absolutely! Here’s **Exercise 4** in Markdown format, keeping **all of your answers exactly the same**:
-
----
 
 ## Exercise 4: Defining Familiar Concepts
 
-### Concept: URL Shortener
+### 1. Concept: URL Shortener
 
 **Purpose:**
 Have a short, easier to share URL that redirects to the original URL
@@ -197,9 +176,9 @@ A user adds a long URL that they want to shorten. They can shorten it to a custo
 ### State
 
 * A set of LongUrl with:
-
   * A set of ShortUrls
-  * A set of ShortUrls
+  
+* A set of ShortUrls with:
   * A shortUrl String
   * A originalUrl LongUrl
 
@@ -228,7 +207,7 @@ Assume a URL can have multiple ShortUrls and short URLs never expire.
 
 ---
 
-### Concept: Conference Room Booking
+### 2. Concept: Conference Room Booking
 
 **Purpose:**
 Allow people to reserve shared rooms for meetings or work sessions, ensuring that space is available when needed and conflicts are avoided.
@@ -297,7 +276,7 @@ Users can create rooms and time slots. They can reserve a room for a specific sl
 * Each room can have multiple non-overlapping booked slots.
 
 ---
-### Concept: Time-Based One-Time Password (TOTP)
+### 3. Concept: Time-Based One-Time Password (TOTP)
 **Purpose:**
 Strengthen authentication by limiting access to users who possess their trusted device
 
