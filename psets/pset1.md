@@ -177,7 +177,7 @@ A user adds a long URL that they want to shorten. They can shorten it to a custo
 
 * A set of LongUrl with:
   * A set of ShortUrls
-  
+
 * A set of ShortUrls with:
   * A shortUrl String
   * A originalUrl LongUrl
@@ -297,7 +297,7 @@ A user registers with a username, password, and trusted device. To authenticate,
   * A password String
   * A trustedDevices Devices
   * A set of TOTP
-  * A set of Devices
+* A set of Devices
 
 ---
 
