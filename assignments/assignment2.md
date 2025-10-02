@@ -215,7 +215,10 @@ A set of **ProgressLogs** with:
 ---
 
 ## Sync: generateFeedback  
-**When**: `PoseBreakdown.extractPoses(videoID): (poseIDs)`  
+**When**: `PoseBreakdown.extractPoses(videoID): (poseIDs)`
+
+**Where**: `videoID` is a practice video
+
 **Then**: `Feedback.analyze(referencePoseData, practicePoseData)`  
 
 ---
@@ -229,20 +232,16 @@ A set of **ProgressLogs** with:
 ![UI Sketch 1](../assets/assn2%20p1.jpg)
 
 
-![UI Sketch 2](../assets/assn2%20p1.jpg)
+![UI Sketch 2](../assets/assn2%20p2.jpg)
 
 # User Journey
 
 Let’s say we have a **beginner dancer** who wants to learn a new K-pop choreography but struggles to identify exactly where her movements differ from the reference video.  
 
-She opens **MirrorMotion** on her laptop, which takes her to her **personal dashboard** showing her previous practice sessions and uploaded videos. She clicks the **“Upload Video”** button, and the app navigates to a page where she can select the file of her practice attempt and label it as a **practice video**. She also selects the **reference video** she wants to compare it against. Once she clicks **“Upload”**, the app stores her video and associates it with her account (see wireframe for the **UploadVideo page**).  
+She opens **MirrorMotion** on her laptop, which takes her to her **personal dashboard** showing her previous practice sessions and uploaded videos. She clicks the **“Upload Video”** tab, and the app navigates to a page where she can select the file of her practice attempt and label it as a **reference video** or a **practice video**. She selects **pracitce video** and selects the **reference video** she wants to compare it against. Once she clicks **"“Submit”"**, the app stores her video and associates it with her account. 
 
----
+After uploading, the app automatically processes her video using the **PoseBreakdown** system. She is then directed to the **Review Feedback page**, where the app displays her practice video alongside the reference choreography. She can see **highlighted differences in body parts**, with suggestions on which moves to refine (see wireframe for the **Review Feedback page**).
 
-After uploading, the app automatically processes her video using the **PoseBreakdown** system. She is then directed to the **Feedback page**, where the app displays her practice video alongside the reference choreography. She can see **highlighted differences in body parts**, with suggestions on which moves to refine (see wireframe for the **Feedback page**). The app also provides an **overall accuracy score**, giving her a clear sense of where she stands.  
-
----
-
-Satisfied with the insights, she clicks **“Log Session”** to save this practice attempt. The app adds her video and the generated feedback to the **ProgressTracker**, linking it to the reference video. She can now navigate to her **Progress page** to see all her practice attempts for this choreography, compare improvements over time, and plan her next practice (see wireframe for the **ProgressTracker page**).  
+She can also navigate to her **Progress Tracker page** to see all her practice attempts for this choreography, compare improvements over time, and plan her next practice.
 
 She feels motivated because the app makes it easy to identify mistakes, track her growth, and practice more effectively, without needing in-person coaching.  
